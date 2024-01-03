@@ -38,8 +38,11 @@ const About = () => {
         <span className='italic'>{`When I'm not coding`}</span>, I enjoy working
         out, watching movies, reading, and listening to Humberman lab. I also
         enjoy <span className='font-medium'>art</span>.{' '}
-        {`I've been studying at`} <a href=' '>Watts Atiler</a> for several years
-        now.
+        {`I've been studying at`}{' '}
+        <a href=' https://www.wattsatelier.com/' className='underline'>
+          Watts Atiler
+        </a>{' '}
+        for several years now.
       </p>
     </motion.section>
   );
