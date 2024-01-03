@@ -43,9 +43,9 @@ const Contact = () => {
       <form
         className='group flex flex-col mt-10'
         action={async (FormData) => {
-          const { error } = await sendEmail(FormData);
-          if (error) {
-            toast.error(error);
+          const data = await sendEmail(FormData);
+          if (data?.error) {
+            toast.error(data.error);
             return;
           }
 
