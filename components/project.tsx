@@ -26,11 +26,11 @@ const Project = ({
         scale: scaleProgress,
         opacity: opacityProgress,
       }}
-      className='group mb-3 sm:mb-8 last:mb-0 '
+      className='group mb-3  sm:mb-8 last:mb-0  w-full'
     >
-      <section className=' group-even:pl-8 rounded-lg bg-gray-100 max-w-[42rem] border border-black/5 overflow-hidden sm:pr-8 relative sm:h-[20rem]  even:pl-8 hover:bg-gray-200 transition dark:bg-white/10 dark:hover:bg-gray-950  '>
+      <section className=' group-even:pl-8 rounded-lg  px-12 flex flex-col bg-gray-100  sm:max-w-[42rem] border border-black/5 overflow-hidden sm:pr-8 relative sm:h-[20rem]  sm:even:pl-8 hover:bg-gray-200 transition dark:bg-white/10 dark:hover:bg-gray-950  '>
         <a href={projectUrl} target='_blank'>
-          <div className='pt-4 pb-7 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full group-even:ml-[18rem]     '>
+          <div className='pt-4 pb-7 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]     '>
             <h3 className='text-2xl font-semibold'>{title}</h3>
             <p className='mt-2 leading-relaxed text-gray-700 dark:text-white'>
               {description}
@@ -52,7 +52,7 @@ const Project = ({
             src={imageUrl}
             alt='Project I worked on'
             quality={95}
-            className='absolute top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl 
+            className=' sm:absolute top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl 
             transition
             group-hover:scale-[1.04]
             group-hover:-translate-x-3
