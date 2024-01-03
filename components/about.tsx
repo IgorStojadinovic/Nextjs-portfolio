@@ -39,7 +39,11 @@ const About = () => {
         out, watching movies, reading, and listening to Humberman lab. I also
         enjoy <span className='font-medium'>art</span>.{' '}
         {`I've been studying at`}{' '}
-        <a href=' https://www.wattsatelier.com/' className='underline'>
+        <a
+          href=' https://www.wattsatelier.com/'
+          target='_bank'
+          className='underline'
+        >
           Watts Atiler
         </a>{' '}
         for several years now.
