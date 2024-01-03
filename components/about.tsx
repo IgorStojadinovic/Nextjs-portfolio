@@ -18,8 +18,8 @@ const About = () => {
     >
       <SectionHeading>About Me</SectionHeading>
       <p className='mb-3'>
-        Frustrated by lack of job opportunities,I decided to pursue carrier in
-        programming. I enrolled a Python coding bootcamp and over time learned{' '}
+        Few years ago,I decided to requalify and pursue carrier in programming.
+        I enrolled a Python coding bootcamp and over time learned{' '}
         <span className='font-medium'>full-stack web development</span>.{' '}
         <span className='italic'>My favorite part of programming</span> is the
         problem-solving aspect. I <span className='underline'>love</span> the
