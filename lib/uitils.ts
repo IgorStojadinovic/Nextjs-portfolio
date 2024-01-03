@@ -6,6 +6,7 @@ export const validateString = (value: unknown, maxLength: number) => {
 };
 
 export const getErrorMessage = (error: unknown): string => {
+  console.log('getErrorMessage called with error:', error);
   let message: string;
 
   if (error instanceof Error) {
