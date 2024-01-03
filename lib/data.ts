@@ -81,7 +81,7 @@ export const projectsData = [
   {
     title: 'Designo',
     description:
-      "Web site for fictional compnay made with react tailwindcss. Compared to bootstrap, tailwind has it's advantages,but premade tailwind components would speed up the process.",
+      "I've been doing projects from Frontend Mentor.io.I really liked the desing on of this one, this is my take on pixel perfect webiste. ",
     tags: ['React', 'Tailwind', 'Typescript'],
     imageUrl: designo,
     projectUrl: 'https://project-designo.netlify.app/',
