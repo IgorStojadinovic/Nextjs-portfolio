@@ -81,7 +81,7 @@ export const projectsData = [
   {
     title: 'Designo',
     description:
-      "I've been doing projects from Frontend Mentor.io.I really liked the desing on of this one, this is my take on pixel perfect webiste. ",
+      "I've been doing projects from Frontend Mentor.io. for some time. I really liked the desing on of this one, this is my take on pixel perfect webiste. ",
     tags: ['React', 'Tailwind', 'Typescript'],
     imageUrl: designo,
     projectUrl: 'https://project-designo.netlify.app/',
