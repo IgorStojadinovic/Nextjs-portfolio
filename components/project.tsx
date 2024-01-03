@@ -32,7 +32,7 @@ const Project = ({
         <a href={projectUrl} target='_blank'>
           <div className='pt-4 pb-7  sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]     '>
             <h3 className='text-2xl font-semibold'>{title}</h3>
-            <p className='mt-2 leading-relaxed text-gray-700 dark:text-white'>
+            <p className='mt-2 mb-8 leading-relaxed text-gray-700 dark:text-white'>
               {description}
             </p>
             <ul className='flex  flex-wrap mt-4 gap-2 sm:mt-auto '>
