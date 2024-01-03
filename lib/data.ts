@@ -2,9 +2,10 @@ import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
 import { FaReact } from 'react-icons/fa';
 import { LuGraduationCap } from 'react-icons/lu';
-import corpcommentImg from '@/public/corpcomment.png';
-import rmtdevImg from '@/public/rmtdev.png';
-import wordanalyticsImg from '@/public/wordanalytics.png';
+import eCommerce from '@/public/e-commerce.jpg';
+import designo from '@/public/designo.jpg';
+import nodeProject from '@/public/node.jpg';
+import lotrAPI from '@/public/lotr-api.jpg';
 
 export const links = [
   {
@@ -46,7 +47,7 @@ export const experiencesData = [
     title: 'Studing Period',
     location: 'Vrbas',
     description:
-      "I didn't really know much about IT field. In this period I explored both front and backend technologies,learned core concepts.I've tried to land a job, but there were basiclly no opportunities for self-taught developers at the time.",
+      "I didn't really know much about IT field. In this period I explored both front and backend technologies,learned core concepts. I've tried to land a job, but there were basiclly no opportunities for self-taught developers at the time.",
     icon: React.createElement(LuGraduationCap),
     date: '2020 - 2022',
   },
@@ -54,7 +55,7 @@ export const experiencesData = [
     title: 'Full-Stack Developer',
     location: 'Novi Sad',
     description:
-      "After short internship, I've became part of WowYowAI team as a full-stack developer. My stack included React, Bootstrap, Redux, MySQL and AWS.",
+      " I've became a part of WowYowAI team as a full-stack developer. My stack included React, Bootstrap, Redux, MySQL and AWS.",
     icon: React.createElement(CgWorkAlt),
     date: '2023',
   },
@@ -70,25 +71,36 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: 'CorpComment',
+    title: 'Audiophile E-Commerce',
     description:
-      'I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.',
-    tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'Prisma'],
-    imageUrl: corpcommentImg,
+      "An e-commerce website,fully resposnive. I've used Redux for state managment and tailwindcss for styling. Shop has CRUD functionality",
+    tags: ['React', 'Redux', 'Tailwind'],
+    imageUrl: eCommerce,
+    projectUrl: 'https://ecommerce-project-audio.netlify.app/',
   },
   {
-    title: 'rmtDev',
+    title: 'Designo',
     description:
-      'Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.',
-    tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'Redux'],
-    imageUrl: rmtdevImg,
+      "Web site for fictional compnay made with react tailwindcss. Compared to bootstrap, tailwind has it's advantages,but premade tailwind components would speed up the process.",
+    tags: ['React', 'Tailwind'],
+    imageUrl: designo,
+    projectUrl: 'https://project-designo.netlify.app/',
   },
   {
-    title: 'Word Analytics',
+    title: 'Lord Of The Rings API',
     description:
-      'A public web app for quick analytics on text. It shows word count, character count and social media post limits.',
+      'Basic Node.js/Express backend API with CRUD functionallity made in MVC patter.',
     tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
-    imageUrl: wordanalyticsImg,
+    imageUrl: lotrAPI,
+    projectUrl: 'https://project-designo.netlify.app/',
+  },
+  {
+    title: 'Node.js/Expess API',
+    description:
+      'Basic Node.js/Express backend API with CRUD functionallity made in MVC patter.',
+    tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
+    imageUrl: nodeProject,
+    projectUrl: 'https://project-designo.netlify.app/',
   },
 ] as const;
 
