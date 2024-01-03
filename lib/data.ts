@@ -74,7 +74,7 @@ export const projectsData = [
     title: 'Audiophile E-Commerce',
     description:
       "An e-commerce website,fully resposnive. I've used Redux for state managment and tailwindcss for styling. Shop has CRUD functionality",
-    tags: ['React', 'Redux', 'Tailwind'],
+    tags: ['React', 'Tailwind', 'Typescript', 'Redux'],
     imageUrl: eCommerce,
     projectUrl: 'https://ecommerce-project-audio.netlify.app/',
   },
@@ -82,24 +82,8 @@ export const projectsData = [
     title: 'Designo',
     description:
       "Web site for fictional compnay made with react tailwindcss. Compared to bootstrap, tailwind has it's advantages,but premade tailwind components would speed up the process.",
-    tags: ['React', 'Tailwind'],
+    tags: ['React', 'Tailwind', 'Typescript'],
     imageUrl: designo,
-    projectUrl: 'https://project-designo.netlify.app/',
-  },
-  {
-    title: 'Lord Of The Rings API',
-    description:
-      'Basic Node.js/Express backend API with CRUD functionallity made in MVC patter.',
-    tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
-    imageUrl: lotrAPI,
-    projectUrl: 'https://project-designo.netlify.app/',
-  },
-  {
-    title: 'Node.js/Expess API',
-    description:
-      'Basic Node.js/Express backend API with CRUD functionallity made in MVC patter.',
-    tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
-    imageUrl: nodeProject,
     projectUrl: 'https://project-designo.netlify.app/',
   },
 ] as const;
