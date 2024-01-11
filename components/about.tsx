@@ -36,7 +36,7 @@ const About = () => {
 
       <p>
         <span className='italic'>{`When I'm not coding`}</span>, I enjoy working
-        out, watching movies, reading, and listening to Humberman lab. I also
+        out, watching movies, reading, and listening to Huberman Lab. I also
         enjoy <span className='font-medium'>art</span>.{' '}
         {`I've been studying at`}{' '}
         <a
