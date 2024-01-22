@@ -37,7 +37,7 @@ const Intor = () => {
               priority={true}
               src={ProfilePicture}
               alt='profile-picture'
-              className='h-24 w-24 rounded-full object-cover shadow-xl border-[0.35rem] border-white'
+              className='w-36 h-36 rounded-full object-cover shadow-xl border-[0.35rem] border-white'
             />
           </motion.div>
         </div>
