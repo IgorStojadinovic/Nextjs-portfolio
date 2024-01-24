@@ -4,7 +4,7 @@ import { FaReact } from 'react-icons/fa';
 import { LuGraduationCap } from 'react-icons/lu';
 import eCommerce from '@/public/e-commerce.jpg';
 import designo from '@/public/designo.jpg';
-import lotr from '@/public/lotr-api.jpg';
+import lotr from '@/public/lotr-api-1.png';
 import nodeProject from '@/public/node.jpg';
 import lotrAPI from '@/public/lotr-api.jpg';
 
