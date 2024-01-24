@@ -91,7 +91,7 @@ export const projectsData = [
     title: 'Lord of the rings API',
     description:
       "Been a fan of the franchise for ages. I've made this little app that allows you to search for any character from the books/movies and get random quotes as well. Password is Melon.",
-    tags: ['React', 'Tailwind'],
+    tags: ['React', 'Tailwind', 'Redux'],
     imageUrl: lotr,
     projectUrl: 'https://lord-of-the-rings-game-of-moria.netlify.app/',
   },
