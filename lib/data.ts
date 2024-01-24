@@ -4,6 +4,7 @@ import { FaReact } from 'react-icons/fa';
 import { LuGraduationCap } from 'react-icons/lu';
 import eCommerce from '@/public/e-commerce.jpg';
 import designo from '@/public/designo.jpg';
+import lotr from '@/public/lotr-api.jpg';
 import nodeProject from '@/public/node.jpg';
 import lotrAPI from '@/public/lotr-api.jpg';
 
@@ -85,6 +86,14 @@ export const projectsData = [
     tags: ['React', 'Tailwind', 'Typescript'],
     imageUrl: designo,
     projectUrl: 'https://project-designo.netlify.app/',
+  },
+  {
+    title: 'Lord of the rings API',
+    description:
+      "Been a fan of the franchise for ages. I've made this little app that allows you to search for any character from the books/movies and get random quotes as well. Password is Melon.",
+    tags: ['React', 'Tailwind'],
+    imageUrl: lotr,
+    projectUrl: 'https://lord-of-the-rings-game-of-moria.netlify.app/',
   },
 ] as const;
 
