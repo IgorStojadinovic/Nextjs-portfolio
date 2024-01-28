@@ -107,7 +107,6 @@ export const skillsData = [
   'Node.js',
   'Git',
   'Tailwind',
-  'Prisma',
   'MongoDB',
   'MySQL',
   'Redux',
