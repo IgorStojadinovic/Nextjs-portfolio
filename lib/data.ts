@@ -5,8 +5,7 @@ import { LuGraduationCap } from 'react-icons/lu';
 import eCommerce from '@/public/e-commerce.jpg';
 import designo from '@/public/designo.jpg';
 import lotr from '@/public/lotr-api-1.png';
-import nodeProject from '@/public/node.jpg';
-import lotrAPI from '@/public/lotr-api.jpg';
+import technews from '@/public/tech-news.png'
 
 export const links = [
   {
@@ -94,6 +93,14 @@ export const projectsData = [
     tags: ['React', 'Tailwind', 'Redux'],
     imageUrl: lotr,
     projectUrl: 'https://lord-of-the-rings-game-of-moria.netlify.app/',
+  },
+  {
+    title: 'Tech News',
+    description:
+      "Small app that let's you search for latest tech news.",
+    tags: ['React',"TypeScript"],
+    imageUrl: technews,
+    projectUrl: 'https://spiffy-sawine-dd95b7.netlify.app/',
   },
 ] as const;
 
