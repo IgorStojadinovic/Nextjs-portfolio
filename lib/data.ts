@@ -94,6 +94,7 @@ export const projectsData = [
     imageUrl: lotr,
     projectUrl: 'https://lord-of-the-rings-game-of-moria.netlify.app/',
   },
+  /*
   {
     title: 'Tech News',
     description:
@@ -102,6 +103,7 @@ export const projectsData = [
     imageUrl: technews,
     projectUrl: 'https://spiffy-sawine-dd95b7.netlify.app/',
   },
+  */
 ] as const;
 
 export const skillsData = [
