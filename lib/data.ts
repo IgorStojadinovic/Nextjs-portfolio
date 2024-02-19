@@ -1,10 +1,10 @@
-import React from 'react';
-import { CgWorkAlt } from 'react-icons/cg';
-import { FaReact } from 'react-icons/fa';
-import { LuGraduationCap } from 'react-icons/lu';
-import eCommerce from '@/public/e-commerce.jpg';
-import designo from '@/public/designo.jpg';
-import lotr from '@/public/lotr-api-1.png';
+import React from 'react'
+import { CgWorkAlt } from 'react-icons/cg'
+import { FaReact } from 'react-icons/fa'
+import { LuGraduationCap } from 'react-icons/lu'
+import eCommerce from '@/public/e-commerce.jpg'
+import designo from '@/public/designo.jpg'
+import lotr from '@/public/lotr-api-1.png'
 import technews from '@/public/tech-news.png'
 
 export const links = [
@@ -32,7 +32,7 @@ export const links = [
     name: 'Contact',
     hash: '#contact',
   },
-] as const;
+] as const
 
 export const experiencesData = [
   {
@@ -60,14 +60,14 @@ export const experiencesData = [
     date: '2023',
   },
   {
-    title: 'Full-Stack Developer',
+    title: 'React Developer',
     location: 'Vrbas',
     description:
-      "After departure from WowYowAI,  I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, MySQL. I'm open to full-time opportunities.",
+      "After departure from WowYowAI,  I'm now a React developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
     date: 'Current',
   },
-] as const;
+] as const
 
 export const projectsData = [
   {
@@ -76,7 +76,7 @@ export const projectsData = [
       "An e-commerce website,fully resposnive. I've used Redux for state managment and tailwindcss for styling. Shop has CRUD functionality",
     tags: ['React', 'Tailwind', 'Typescript', 'Redux'],
     imageUrl: eCommerce,
-    projectUrl: 'https://ecommerce-project-audio.netlify.app/',
+    projectUrl: 'https://stalwart-bombolone-4bcc51.netlify.app/products/xx99-2',
   },
   {
     title: 'Designo',
@@ -94,17 +94,7 @@ export const projectsData = [
     imageUrl: lotr,
     projectUrl: 'https://lord-of-the-rings-game-of-moria.netlify.app/',
   },
-  /*
-  {
-    title: 'Tech News',
-    description:
-      "Small app that let's you search for latest tech news.",
-    tags: ['React',"TypeScript"],
-    imageUrl: technews,
-    projectUrl: 'https://spiffy-sawine-dd95b7.netlify.app/',
-  },
-  */
-] as const;
+] as const
 
 export const skillsData = [
   'HTML',
@@ -116,11 +106,10 @@ export const skillsData = [
   'Node.js',
   'Git',
   'Tailwind',
-  'MongoDB',
   'MySQL',
   'Redux',
   'REST',
   'Express',
   'PostgreSQL',
   'Framer Motion',
-] as const;
+] as const
