@@ -112,4 +112,8 @@ export const skillsData = [
   'Express',
   'PostgreSQL',
   'Framer Motion',
+  'Figma',
+  'Adobe Photoshop',
+  'PHP',
+  'WordPress',
 ] as const
