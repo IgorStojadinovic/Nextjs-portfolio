@@ -74,7 +74,7 @@ export const projectsData = [
     title: 'Audiophile E-Commerce',
     description:
       "An e-commerce website,fully resposnive. I've used Redux for state managment and tailwindcss for styling. Shop has CRUD functionality",
-    tags: ['React', 'Tailwind', 'Typescript', 'Redux'],
+    tags: ['Next.js', 'Tailwind', 'Typescript', 'Redux'],
     imageUrl: eCommerce,
     projectUrl: 'https://stalwart-bombolone-4bcc51.netlify.app/products/xx99-2',
   },
