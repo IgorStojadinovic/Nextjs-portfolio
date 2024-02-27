@@ -73,7 +73,7 @@ export const projectsData = [
   {
     title: 'Audiophile E-Commerce',
     description:
-      "An e-commerce website,fully resposnive. I've used Redux for state managment and tailwindcss for styling. Shop has CRUD functionality",
+      "I have this project made with with React,but I've decided to convert it to Next.js version as well.For state managment I used Redux and tailwindcss for styling.",
     tags: ['Next.js', 'Tailwind', 'Typescript', 'Redux'],
     imageUrl: eCommerce,
     projectUrl: 'https://stalwart-bombolone-4bcc51.netlify.app',
@@ -93,6 +93,14 @@ export const projectsData = [
     tags: ['React', 'Tailwind', 'Redux'],
     imageUrl: lotr,
     projectUrl: 'https://lord-of-the-rings-game-of-moria.netlify.app/',
+  },
+  {
+    title: 'Tech News!',
+    description:
+      "Read the latest tech news of your choice.",
+    tags: ['React', 'Tailwind', 'Redux','Vite'],
+    imageUrl: technews,
+    projectUrl: 'https://spiffy-sawine-dd95b7.netlify.app/',
   },
 ] as const
 
