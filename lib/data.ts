@@ -98,7 +98,7 @@ export const projectsData = [
     title: 'Tech News!',
     description:
       "Read the latest tech news of your choice.I've used Algolia Search's REST API for this app.",
-    tags: ['React', 'Tailwind', 'Redux','Vite',"RESTAPI"],
+    tags: ['React', 'Tailwind','Vite',"RESTAPI"],
     imageUrl: technews,
     projectUrl: 'https://spiffy-sawine-dd95b7.netlify.app/',
   },
