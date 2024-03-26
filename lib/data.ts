@@ -44,7 +44,7 @@ export const experiencesData = [
     date: "2020",
   },
   {
-    title: "Studing Period",
+    title: "Studying Period",
     location: "Vrbas",
     description:
       "I didn't really know much about IT field. In this period I explored both front and backend technologies,learned core concepts. I've tried to land a job, but there were basiclly no opportunities for self-taught developers at the time.",
