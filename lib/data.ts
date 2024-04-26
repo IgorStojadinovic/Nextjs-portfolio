@@ -6,6 +6,7 @@ import eCommerce from "@/public/e-commerce.jpg";
 import designo from "@/public/designo.jpg";
 import lotr from "@/public/lotr-api-1.png";
 import technews from "@/public/tech-news.png";
+import nodejsLogo from "@/public/node-js.png";
 
 export const links = [
   {
@@ -85,6 +86,15 @@ export const projectsData = [
     tags: ["React", "Tailwind", "Typescript"],
     imageUrl: designo,
     projectUrl: "https://project-designo.netlify.app/",
+  },
+  {
+    title: "Node.js Authentication backend",
+    description:
+      "This is a backend system for registering employees,made with express JsonWebToken and MongoDB",
+    tags: ["Node.js", "Express", "JsonWebTokoen", "MongoDB", "Mongoose"],
+    imageUrl: nodejsLogo,
+    projectUrl:
+      "https://github.com/IgorStojadinovic/Node-Authentication-Backend",
   },
   {
     title: "Lord of the rings API",
