@@ -91,7 +91,7 @@ export const projectsData = [
     title: "Node.js Authentication Backend",
     description:
       "This is a backend system for registering employees,made with express JsonWebToken and MongoDB",
-    tags: ["Node.js", "Express", "JsonWebTokoen", "MongoDB", "Mongoose"],
+    tags: ["Node.js", "Express", "JWT", "MongoDB", "Mongoose"],
     imageUrl: nodejsLogo,
     projectUrl:
       "https://github.com/IgorStojadinovic/Node-Authentication-Backend",
