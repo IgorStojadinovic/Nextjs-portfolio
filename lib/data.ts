@@ -88,7 +88,7 @@ export const projectsData = [
     projectUrl: "https://project-designo.netlify.app/",
   },
   {
-    title: "Node.js Authentication backend",
+    title: "Node.js Authentication Backend",
     description:
       "This is a backend system for registering employees,made with express JsonWebToken and MongoDB",
     tags: ["Node.js", "Express", "JsonWebTokoen", "MongoDB", "Mongoose"],
@@ -97,7 +97,7 @@ export const projectsData = [
       "https://github.com/IgorStojadinovic/Node-Authentication-Backend",
   },
   {
-    title: "Lord of the rings API",
+    title: "LOTR API",
     description:
       "Been a fan of the franchise for ages. I've made this little app that allows you to search for any character from the books/movies and get random quotes as well. Password is Melon.",
     tags: ["React", "Tailwind", "Redux", "RESTAPI"],
