@@ -82,7 +82,7 @@ export const projectsData = [
   {
     title: "Designo",
     description:
-      "I've been doing projects from Frontend Mentor.io. for some time. I really liked the desing of this one, this is my take on pixel perfect webiste. ",
+      "I've been doing projects from Frontend Mentor.io. for some time. I really liked the desing of this one, this is my take on pixel perfect webiste.",
     tags: ["React", "Tailwind", "Typescript"],
     imageUrl: designo,
     projectUrl: "https://project-designo.netlify.app/",
@@ -90,7 +90,7 @@ export const projectsData = [
   {
     title: "Node.js Authentication Backend",
     description:
-      "This is a backend system for registering employees,made with express JsonWebToken and MongoDB",
+      "This is a backend system for registering employees,made with express JsonWebToken and MongoDB  ",
     tags: ["Node.js", "Express", "JWT", "MongoDB", "Mongoose"],
     imageUrl: nodejsLogo,
     projectUrl:
