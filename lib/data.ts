@@ -64,7 +64,7 @@ export const experiencesData = [
     title: "React Developer",
     location: "Vrbas",
     description:
-      "After departure from WowYowAI,  I'm now a React developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind. I'm open to full-time opportunities.",
+      "After departure from WowYowAI,  I'm now a React developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind. I'm open to full-time opportunities. ",
     icon: React.createElement(FaReact),
     date: "Current",
   },
