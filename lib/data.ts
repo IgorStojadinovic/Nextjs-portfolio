@@ -40,7 +40,7 @@ export const experiencesData = [
     title: "Python for beginners bootcamp",
     location: "IT Fusion Novi Sad",
     description:
-      "My first experience with coding. I graduated after 6 months of studying. Learned basic concepts of programing with Python.",
+      "My first experience with coding. I graduated after 3 months of studying. Learned basic concepts of programing with Python.",
     icon: React.createElement(LuGraduationCap),
     date: "2020",
   },
@@ -48,7 +48,7 @@ export const experiencesData = [
     title: "Studying Period",
     location: "Vrbas",
     description:
-      "I didn't really know much about IT field. In this period I explored both front and backend technologies,learned core concepts. I've tried to land a job, but there were basiclly no opportunities for self-taught developers at the time.",
+      "In this period I explored both front and backend technologies and learned core concepts of MERN stack.I've tried to apply for internships,but they ware basically only for students. I could not give up at this point, I've invested so much time into this. ",
     icon: React.createElement(LuGraduationCap),
     date: "2020 - 2022",
   },
@@ -56,7 +56,7 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Novi Sad",
     description:
-      " I've became a part of WowYowAI team as a full-stack developer. My stack included React, Bootstrap, Redux, MySQL and AWS.",
+      " After short internship,I've became a part of WowYowAI team as a full-stack developer. My stack included React, Bootstrap, Redux, MySQL and AWS.",
     icon: React.createElement(CgWorkAlt),
     date: "2023",
   },

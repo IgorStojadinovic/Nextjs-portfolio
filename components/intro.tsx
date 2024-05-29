@@ -22,6 +22,7 @@ const Intor = () => {
     >
       <div className='flex items-center justify-center'>
         <div className='relative'>
+          {/*
           <motion.div
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -30,6 +31,7 @@ const Intor = () => {
               duration: 0.2,
             }}
           >
+
             <Image
               height='192'
               width='192'
@@ -39,7 +41,9 @@ const Intor = () => {
               alt='profile-picture'
               className='w-36 h-36 rounded-full object-cover shadow-xl border-[0.35rem] border-white'
             />
+
           </motion.div>
+          */}
         </div>
       </div>
       <motion.p
