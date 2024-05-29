@@ -40,7 +40,7 @@ export const experiencesData = [
     title: "Python for beginners bootcamp",
     location: "IT Fusion Novi Sad",
     description:
-      "My first experience with coding. I graduated after 3 months of studying. Learned basic concepts of programing with Python.",
+      "My first experience with coding. I completed a course after 3 months of studying. Learned basic concepts of programing with Python.",
     icon: React.createElement(LuGraduationCap),
     date: "2020",
   },
@@ -48,7 +48,7 @@ export const experiencesData = [
     title: "Studying Period",
     location: "Vrbas",
     description:
-      "In this period I explored both front and backend technologies and learned core concepts of MERN stack.I've tried to apply for internships,but they were basically only for students. I could not give up at this point, I've invested so much time into this. ",
+      "In this period I explored both front and backend technologies and learned core concepts and MERN stack.I've tried to apply for internships,but they were basically only for students. I could not give up at this point, I've invested so much time into this. ",
     icon: React.createElement(LuGraduationCap),
     date: "2020 - 2022",
   },
