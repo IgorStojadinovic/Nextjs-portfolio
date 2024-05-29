@@ -123,7 +123,5 @@ export const skillsData = [
   "PostgreSQL",
   "Framer Motion",
   "Figma",
-  "Adobe Photoshop",
-  "PHP",
-  "WordPress",
+  "Adobe Photoshop","UI/UX"
 ] as const;
