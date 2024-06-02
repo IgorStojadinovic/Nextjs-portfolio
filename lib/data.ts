@@ -6,7 +6,7 @@ import eCommerce from "@/public/e-commerce.jpg";
 import designo from "@/public/designo.jpg";
 import lotr from "@/public/lotr-api-1.png";
 import technews from "@/public/tech-news.png";
-import nodejsLogo from "@/public/node-js.png";
+import taskManager from "@/public/task-manager.png";
 
 export const links = [
   {
@@ -88,13 +88,21 @@ export const projectsData = [
     projectUrl: "https://project-designo.netlify.app/",
   },
   {
-    title: "Node.js Authentication Backend",
+    title: "Task Manager - Tech notes",
     description:
-      "This is a backend system for registering employees,made with express JsonWebToken and MongoDB  ",
-    tags: ["Node.js", "Express", "JWT", "MongoDB", "Mongoose"],
-    imageUrl: nodejsLogo,
-    projectUrl:
-      "https://github.com/IgorStojadinovic/Node-Authentication-Backend",
+      "This is a fullstack application,allows users to track their daily tasks. Login with user: Admin, pass: Admin",
+    tags: [
+      "Node.js",
+      "Express",
+      "JWT",
+      "MongoDB",
+      "Mongoose",
+      "React",
+      "Tailwind",
+      "Redux",
+    ],
+    imageUrl: taskManager,
+    projectUrl: "https://tech-notes-teeb.onrender.com/",
   },
   {
     title: "Tech News!",
@@ -123,5 +131,6 @@ export const skillsData = [
   "PostgreSQL",
   "Framer Motion",
   "Figma",
-  "Adobe Photoshop","UI/UX"
+  "Adobe Photoshop",
+  "UI/UX",
 ] as const;
