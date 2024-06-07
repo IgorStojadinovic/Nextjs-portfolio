@@ -56,7 +56,7 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Novi Sad",
     description:
-      " After short internship,I've became a part of WowYowAI team as a full-stack developer. My stack included React, Bootstrap, Redux, MySQL and AWS.",
+      " After short internship,I've became a part of C9 Group/WowYowAI team as a full-stack developer. My stack included React, Bootstrap, Redux, MySQL and AWS.",
     icon: React.createElement(CgWorkAlt),
     date: "2023",
   },
@@ -64,7 +64,7 @@ export const experiencesData = [
     title: "React Developer",
     location: "Vrbas",
     description:
-      "After departure from WowYowAI,  I'm now a React developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind. I'm open to full-time opportunities. ",
+      "I had to quit.Lack of managment,bad interpersonal relations within the agency. After departure from C9-Group/WowYowAI,  I'm now a React developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind. I'm open to full-time opportunities. ",
     icon: React.createElement(FaReact),
     date: "Current",
   },
