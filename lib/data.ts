@@ -48,12 +48,12 @@ export const experiencesData = [
     title: "Studying Period",
     location: "Vrbas",
     description:
-      "In this period I explored both front and backend technologies on and off, learned core concepts and MERN stack.I've tried to apply for internships,but they were basically only for students. I could not give up at this point, I've invested so much time into this. ",
+      "In this period I explored both front and backend technologies on and off, learned core concepts and MERN stack.I've tried to apply for internships,but they were basically only for students. I could not give up at this point. ",
     icon: React.createElement(LuGraduationCap),
     date: "2020 - 2022",
   },
   {
-    title: "Full-Stack Developer",
+    title: "Full-Stack Developer - WOWYOW AI",
     location: "Novi Sad",
     description:
       " After short internship,I've became a part of C9 Group/WowYowAI team as a full-stack developer. My stack included React, Bootstrap, Redux, MySQL and AWS.",
@@ -64,7 +64,7 @@ export const experiencesData = [
     title: "React Developer",
     location: "Vrbas",
     description:
-      "I had to quit. Lack of managment,bad interpersonal relations within the agency. After departure from C9-Group/WowYowAI,  I'm now a React developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind. I'm open to full-time opportunities. ",
+      "Unfortunately,I had to leave due to lack of management within the agency. I'm now a React developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind. I'm open to full-time opportunities. ",
     icon: React.createElement(FaReact),
     date: "Current",
   },
