@@ -85,7 +85,7 @@ const Intor = () => {
           <HiDownload className='opacity-60 group-hover:translate-y-1 transition ' />
         </a>
         <a
-          href='https://www.linkedin.com/in/igor-stojadinovic-83002b240/'
+          href='https://www.linkedin.com/in/igor-s-83002b240/'
           target='_blank'
           className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15]  hover:text-gray-950 active:scale-105 transition-all hover:cursor-pointer border border-black/10 dark:bg-white/10 dark:text-white/60 dark:hover:text-white'
         >
