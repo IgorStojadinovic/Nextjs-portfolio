@@ -77,7 +77,7 @@ const Intor = () => {
           <BsArrowRight className='opacity-70 group-hover:translate-x-1 transition' />
         </Link>
         <a
-          href='/Igor__Stojadinović_-_Software_Developer.pdf'
+          href='/Igor__Stojadinović_-_Junior_Software_Developer.pdf'
           download={true}
           className='group bg-white  px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:sclae-110 hover:scale-110  active:scale-105 transition-all hover:cursor-pointer border border-black/10  dark:bg-white/10 dark:text-white/60 dark:hover:text-white'
         >
