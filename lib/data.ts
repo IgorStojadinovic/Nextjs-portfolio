@@ -48,7 +48,7 @@ export const experiencesData = [
     title: "Studying Period",
     location: "Vrbas",
     description:
-      "In this period I explored both front and backend technologies on and off, learned core concepts and MERN stack.I've tried to apply for internships,but they were basically only for students. I could not give up at this point. ",
+      "In this period I explored both front and backend technologies on and off, learned core concepts and MERN stack.I've tried to apply for internships,but there were no opportunities for self-taught developers.",
     icon: React.createElement(LuGraduationCap),
     date: "2020 - 2022",
   },
