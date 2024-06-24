@@ -64,7 +64,7 @@ export const experiencesData = [
     title: "React Developer",
     location: "Vrbas",
     description:
-      "Unfortunately,I had to leave due to lack of management within the agency. I'm now a React developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind. I'm open to full-time opportunities. ",
+      "After my departure from C9 Group. I'm now a React developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind. I'm open to full-time opportunities. ",
     icon: React.createElement(FaReact),
     date: "Current",
   },
