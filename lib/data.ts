@@ -36,14 +36,7 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
-  {
-    title: "Python for beginners bootcamp",
-    location: "IT Fusion Novi Sad",
-    description:
-      "My first experience with coding. I completed a course after 3 months of studying. Learned basic concepts of programing with Python.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2020",
-  },
+ 
   {
     title: "Studying Period",
     location: "Vrbas",
