@@ -83,7 +83,7 @@ export const projectsData = [
   {
     title: "Task Manager - Tech notes",
     description:
-      "This is a fullstack application,allows users to track their daily tasks. Login with user: Admin, pass: Admin",
+      "This is a dashboard fullstack application which allows users to track their development tasks.Authenitcation and authorization is done with Node.js/Express/JWT.  Login  username: Admin / pass: Admin",
     tags: [
       "Node.js",
       "Express",
