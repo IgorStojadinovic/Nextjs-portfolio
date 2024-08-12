@@ -38,7 +38,7 @@ export const links = [
 export const experiencesData = [
     {
         title: 'Studying Period',
-        location: 'Vrbas',
+        location: '',
         description:
             "In this period I explored both front and backend technologies on and off, learned core concepts and MERN stack.I've tried to apply for internships,but there were no opportunities for self-taught developers.",
         icon: React.createElement(LuGraduationCap),
@@ -54,7 +54,7 @@ export const experiencesData = [
     },
     {
         title: 'React Developer',
-        location: 'Vrbas',
+        location: '',
         description:
             "After my departure from C9 Group. I'm now a React developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind. I'm open to full-time opportunities. ",
         icon: React.createElement(FaReact),
