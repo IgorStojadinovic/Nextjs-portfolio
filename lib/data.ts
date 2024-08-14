@@ -45,7 +45,7 @@ export const experiencesData = [
         date: '2020 - 2022',
     },
     {
-        title: 'Full-Stack Developer - WOWYOW AI',
+        title: 'Full-Stack Developer - C9 Group',
         location: 'Novi Sad',
         description:
             " After short internship,I've became a part of C9 Group/WowYowAI team as a full-stack developer. My stack included React, Bootstrap, Redux, MySQL and AWS.",
