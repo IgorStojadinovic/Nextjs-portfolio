@@ -79,24 +79,23 @@ export const projectsData = [
         imageUrl: designo,
         projectUrl: 'https://project-designo.netlify.app/',
     },
-    /* {
-    title: "Task Manager - Tech notes",
-    description:
-      "This is a dashboard fullstack application which allows users to track their development tasks.Authenitcation and authorization is done with Node.js/Express/JWT.  Login  username: Admin / pass: Admin",
-    tags: [
-      "Node.js",
-      "Express",
-      "JWT",
-      "MongoDB",
-      "Mongoose",
-      "React",
-      "Tailwind",
-      "Redux",
-    ],
-    imageUrl: taskManager,
-    projectUrl: "https://tech-notes-teeb.onrender.com/",
-  },
-  */
+    {
+        title: 'Task Dashboard Full-stack project',
+        description:
+            "App allows users to track,add,remove and update their daily tasks.For state managment I used Redux, and for data fetching I've tried RTK Query. User: Admin Pass: Admin",
+        tags: [
+            'Node.js',
+            'Express',
+            'JWT',
+            'MongoDB',
+            'Mongoose',
+            'React',
+            'Tailwind',
+            'Redux',
+        ],
+        imageUrl: taskManager,
+        projectUrl: 'https://tech-notes-teeb.onrender.com/',
+    },
 ] as const
 
 export const skillsData = [
