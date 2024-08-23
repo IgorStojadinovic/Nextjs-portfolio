@@ -31,8 +31,8 @@ const About = () => {
                 </span>
                 . I am also familiar with TypeScript and, I am always looking to
                 learn new technologies. Currently Im looking for a
-                <span className='font-medium'>full-time position</span> as a
-                Frontend developer or fullstack
+                <span className='font-medium'>full-time position</span> as a 
+                Frontend or Fullstack JavaScript developer
             </p>
 
             <p>
