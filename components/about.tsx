@@ -30,7 +30,7 @@ const About = () => {
                     React, Next.js, Node.js, and MySQL
                 </span>
                 . I am also familiar with TypeScript and, I am always looking to
-                learn new technologies. Currently I'm looking for a{' '}
+                learn new technologies. Currently Im looking for a
                 <span className='font-medium'>full-time position</span> as a
                 Frontend developer or fullstack
             </p>
