@@ -7,7 +7,7 @@ import designo from '@/public/designo.jpg'
 import lotr from '@/public/lotr-api-1.png'
 import technews from '@/public/tech-news.png'
 import taskManager from '@/public/task-manager.png'
-
+import finace from '@/public/finance.png'
 export const links = [
     {
         name: 'Home',
@@ -96,6 +96,13 @@ export const projectsData = [
         imageUrl: taskManager,
         projectUrl: 'https://tech-notes-teeb.onrender.com/',
     },
+    {
+        title:"Finance Dashboard",
+        description:"Currently in development",
+        tags:['React','Vite','Tailwind','Typescipt'],
+        imageUrl: finace,
+        projectUrl: 'https://devtesting023.netlify.app/',
+    }
 ] as const
 
 export const skillsData = [
