@@ -64,6 +64,13 @@ export const experiencesData = [
 
 export const projectsData = [
     {
+        title:"Finance Dashboard",
+        description:"Currently in development",
+        tags:['React','Vite','Tailwind','Typescipt'],
+        imageUrl: finace,
+        projectUrl: 'https://devtesting023.netlify.app/',
+    },
+    {
         title: 'Audiophile E-Commerce',
         description:
             "I have this project made with React,but I've decided to convert it to Next.js version as well.",
@@ -96,13 +103,7 @@ export const projectsData = [
         imageUrl: taskManager,
         projectUrl: 'https://tech-notes-teeb.onrender.com/',
     },
-    {
-        title:"Finance Dashboard",
-        description:"Currently in development",
-        tags:['React','Vite','Tailwind','Typescipt'],
-        imageUrl: finace,
-        projectUrl: 'https://devtesting023.netlify.app/',
-    }
+   
 ] as const
 
 export const skillsData = [
