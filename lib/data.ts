@@ -38,7 +38,7 @@ export const links = [
 
 export const experiencesData = [
     {
-        title: "React Developer/JavaScipt Developer",
+        title: "React Developer/JavaScript Developer",
         location: "",
         description:
             "After my departure from C9 Group. I'm now a React developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind. I'm open to full-time opportunities. ",
