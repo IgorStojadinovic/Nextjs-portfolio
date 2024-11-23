@@ -38,12 +38,12 @@ export const links = [
 
 export const experiencesData = [
     {
-        title: "Studying Period",
+        title: "React Developer/JavaScipt Developer",
         location: "",
         description:
-            "In this period I explored both front and backend technologies on and off, learned core concepts and MERN stack.I've tried to apply for internships,but there were no opportunities for self-taught developers.",
-        icon: React.createElement(LuGraduationCap),
-        date: "2020 - 2022",
+            "After my departure from C9 Group. I'm now a React developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind. I'm open to full-time opportunities. ",
+        icon: React.createElement(FaReact),
+        date: "Current",
     },
     {
         title: "Software developer - C9 Group",
@@ -54,12 +54,12 @@ export const experiencesData = [
         date: "2023",
     },
     {
-        title: "React Developer",
+        title: "Studying Period",
         location: "",
         description:
-            "After my departure from C9 Group. I'm now a React developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind. I'm open to full-time opportunities. ",
-        icon: React.createElement(FaReact),
-        date: "Current",
+            "In this period I explored both front and backend technologies on and off, learned core concepts and MERN stack.I've tried to apply for internships,but there were no opportunities for self-taught developers.",
+        icon: React.createElement(LuGraduationCap),
+        date: "2020 - 2022",
     },
 ] as const;
 
