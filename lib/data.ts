@@ -87,6 +87,7 @@ export const projectsData = [
         imageUrl: designo,
         projectUrl: "https://project-designo.netlify.app/",
     },
+    /*
     {
         title: "Task Dashboard Full-stack project",
         description:
@@ -104,6 +105,7 @@ export const projectsData = [
         imageUrl: taskManager,
         projectUrl: "https://tech-notes-teeb.onrender.com/",
     },
+    */
 
 ] as const;
 
