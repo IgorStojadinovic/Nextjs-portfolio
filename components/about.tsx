@@ -27,7 +27,7 @@ const About = () => {
                 <span className='underline'>love</span> the feeling of finally
                 figuring out a solution to a problem. My core stack is{' '}
                 <span className='font-medium'>
-                    React, Next.js, Node.js, and MySQL
+                    React, Node.js, and MySQL
                 </span>
                 . I am also familiar with TypeScript and, I am always looking to
                 learn new technologies. Currently Im looking for a{' '}
