@@ -38,26 +38,26 @@ export const links = [
 
 export const experiencesData = [
     {
-        title: "React Developer/JavaScript Developer",
+        title: "Freelance React/JavaScript Developer",
         location: "",
         description:
-            "After my departure from C9 Group. I'm now a React developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind. I'm open to full-time opportunities. ",
+            "Since leaving C9 Group, I have been working as a JavaScript freelance developer and I am open to full-time opportunities.",
         icon: React.createElement(FaReact),
-        date: "Current",
+        date: "Present",
     },
     {
-        title: "Software developer - C9 Group",
+        title: "Software Developer - C9 Group",
         location: "Novi Sad",
         description:
-            " After short internship,I've became a part of C9 Group/WowYowAI team as a full-stack software developer. My stack included React, Bootstrap, Redux, MySQL and AWS.",
+            "After a brief internship, I joined the C9 Group/WowYowAI team as a full-stack software developer. My tech stack included React, Bootstrap, Redux, MySQL, and AWS.",
         icon: React.createElement(CgWorkAlt),
         date: "2023",
     },
     {
-        title: "Studying Period",
+        title: "Self-Study Period",
         location: "",
         description:
-            "In this period I explored both front and backend technologies on and off, learned core concepts and MERN stack.I've tried to apply for internships,but there were no opportunities for self-taught developers.",
+            "During this time, I delved into both frontend and backend technologies, learning core concepts and the MERN stack. Despite applying for internships, I faced challenges as a self-taught developer due to limited opportunities.",
         icon: React.createElement(LuGraduationCap),
         date: "2020 - 2022",
     },
@@ -74,7 +74,7 @@ export const projectsData = [
     {
         title: "Audiophile E-Commerce",
         description:
-            "I have this project made with React,but I've decided to convert it to Next.js version as well.",
+            "An online store for audiophile products, showcasing a variety of high-quality audio equipment.",
         tags: ["Next.js", "Tailwind", "Typescript", "Redux"],
         imageUrl: eCommerce,
         projectUrl: "https://stalwart-bombolone-4bcc51.netlify.app",
@@ -82,7 +82,7 @@ export const projectsData = [
     {
         title: "Designo",
         description:
-            "I've been doing projects from Frontend Mentor.io. for some time. I really liked the design of this one, this is my take on pixel perfect website.",
+            "This project from Frontend Mentor.io showcases my attempt at creating a pixel-perfect website.",
         tags: ["React", "Tailwind", "Typescript"],
         imageUrl: designo,
         projectUrl: "https://project-designo.netlify.app/",

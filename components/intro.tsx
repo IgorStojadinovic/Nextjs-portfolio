@@ -51,10 +51,10 @@ const Intor = () => {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className='font-bold'>{`Hi there 👋 I'm Igor`}</span>, I am
-        full-stack developer dedicated to developing{' '}
+        <span className='font-bold text-emerald-500'>{`Hi there 👋 I'm Igor`}</span>, I am
+        software developer dedicated to developing{' '}
         <span className='italic'>apps & sites</span>. My focus is{' '}
-        <span className='underline'>React/Next.js</span>
+        <span className='underline text-emerald-500'>React/Next.js</span>
       </motion.p>
 
       <motion.div
@@ -71,7 +71,7 @@ const Intor = () => {
             setTimeOfLastClick(Date.now());
           }}
           href='#contact'
-          className='group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:sclae-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition-all dark:bg-slate-950'
+          className='group bg-zinc-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:sclae-110 hover:scale-110 hover:bg-emerald-700 active:scale-105 transition-all dark:bg-emerald-900'
         >
           Contact me here{' '}
           <BsArrowRight className='opacity-70 group-hover:translate-x-1 transition' />
@@ -79,7 +79,7 @@ const Intor = () => {
         <a
           href='/Igor_Stojadinovic_CV.pdf'
           download={true}
-          className='group bg-white  px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:sclae-110 hover:scale-110  active:scale-105 transition-all hover:cursor-pointer border border-black/10  dark:bg-white/10 dark:text-white/60 dark:hover:text-white'
+          className='group bg-white  px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:sclae-110 hover:scale-110  active:scale-105 transition-all hover:cursor-pointer border border-black/10  dark:bg-zinc-950 dark:text-white/60 dark:hover:text-white dark:border-emerald-900'
         >
           Download CV{' '}
           <HiDownload className='opacity-60 group-hover:translate-y-1 transition ' />
@@ -87,14 +87,14 @@ const Intor = () => {
         <a
           href='https://www.linkedin.com/in/igor-s-83002b240/'
           target='_blank'
-          className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15]  hover:text-gray-950 active:scale-105 transition-all hover:cursor-pointer border border-black/10 dark:bg-white/10 dark:text-white/60 dark:hover:text-white'
+          className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15]  hover:text-gray-950 active:scale-105 transition-all hover:cursor-pointer border border-black/10 dark:bg-zinc-950 dark:text-white/60 dark:hover:text-white dark:border-emerald-900'
         >
           <BsLinkedin />
         </a>
         <a
           href='https://github.com/IgorStojadinovic'
           target='_blank'
-          className='bg-white p-4 text-gray-700 text-[1.35rem] flex items-center gap-2 rounded-full focus:scale-[1.15] hover:text-gray-950 hover:scale-[1.15]  active:scale-105 transition-all hover:cursor-pointer border border-black/10 dark:bg-white/10 dark:text-white/60 dark:hover:text-white'
+          className='bg-white p-4 text-gray-700 text-[1.35rem] flex items-center gap-2 rounded-full focus:scale-[1.15] hover:text-gray-950 hover:scale-[1.15]  active:scale-105 transition-all hover:cursor-pointer border border-black/10 dark:bg-zinc-950 dark:text-white/60 dark:hover:text-white dark:border-emerald-900'
         >
           <FaGithubSquare />
         </a>

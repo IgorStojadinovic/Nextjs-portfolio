@@ -37,7 +37,7 @@ const Skills = () => {
               once: true,
             }}
             custom={index}
-            className='bg-white border border-black/[0.1] px-5 py-3 rounded-lg dark:bg-gray-900 dark:text-white dark:border-white'
+            className='bg-white border border-black/[0.1] px-5 py-3 rounded-lg dark:bg-zinc-900/30 dark:text-white dark:border-emerald-900 '
             key={index}
           >
             {skill}

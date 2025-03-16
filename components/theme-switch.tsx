@@ -14,8 +14,7 @@ const ThemeSwitch = () => {
       document.documentElement.classList.add('dark');
     } else {
       setTheme('light');
-      window.localStorage.setItem('theme', 'light');
-      document.documentElement.classList.remove('dark');
+      window.localStorage.setItem('theme', 'dark');
     }
   };
 

@@ -54,14 +54,14 @@ const Contact = () => {
       >
         <input
           type='email'
-          className='h-14 rounded-lg borderBlack px-4 '
+          className='h-14 rounded-lg  px-4  bg-zinc-950 border border-emerald-900 focus:border-emerald-500 active:border-emerald-500 focus:outline-none focus:ring-1 focus:ring-emerald-500 '
           placeholder='Your email'
           required
           maxLength={500}
           name='senderEmail'
         />
         <textarea
-          className='borderBlack h-52 my-3 rounded-lg px-4 py-4 '
+          className=' h-52 my-3 rounded-lg px-4 py-4 bg-zinc-950 border border-emerald-900 focus:border-emerald-500 active:border-emerald-500 focus:outline-none focus:ring-1 focus:ring-emerald-500 resize-none '
           placeholder='Your message'
           required
           maxLength={5000}
