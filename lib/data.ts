@@ -67,8 +67,8 @@ export const projectsData = [
   {
     title: "Finance Dashboard",
     description:
-      "A dashboard for managing finances, with features for budgeting, expense tracking, and financial reporting.",
-    tags: ["React", "Vite", "Tailwind", "Typescript", "Zustand"],
+      "Fullstack dashboard for managing finances, with features for budgeting, expense tracking, and financial reporting.",
+    tags: ["React", "Vite", "Tailwind", "Typescript", "Zustand","Node.js","Express","Prisma","PostgreSQL","Vercel"],
     imageUrl: finace,
     projectUrl: "https://finance-dashboard-psi-sand.vercel.app/",
   },
