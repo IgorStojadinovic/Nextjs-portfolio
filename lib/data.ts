@@ -70,7 +70,7 @@ export const projectsData = [
       "A dashboard for managing finances, with features for budgeting, expense tracking, and financial reporting.",
     tags: ["React", "Vite", "Tailwind", "Typescript", "Zustand"],
     imageUrl: finace,
-    projectUrl: "https://devtesting023.netlify.app/",
+    projectUrl: "https://finance-dashboard-psi-sand.vercel.app/",
   },
   {
     title: "Audiophile E-Commerce",
