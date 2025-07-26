@@ -14,18 +14,19 @@ export const links = [
         name: "Home",
         hash: "#home",
     },
-    {
+   /*  {
         name: "About",
         hash: "#about",
+    }, */
+    {
+        name: "Skills",
+        hash: "#skills",
     },
     {
         name: "Projects",
         hash: "#projects",
     },
-    {
-        name: "Skills",
-        hash: "#skills",
-    },
+   
     {
         name: "Experience",
         hash: "#experience",
@@ -118,7 +119,55 @@ export const projectsData = [
     */
 ] as const;
 
-export const skillsData = [
+export const skillsData = {
+    "Frontend": [
+        "HTML",
+        "CSS3",
+        "JavaScript",
+        "TypeScript",
+    ],
+    "Frontend Frameworks": [
+        "React",
+        "Next.js",
+    ],
+    "State Managment & Tools": [
+        "Redux",
+        "Zustand",
+        "React Query",
+        "Context API",
+    ],
+    "CMS & Backend": [
+        "Node.js",
+        "Express",
+        "REST APIs",
+        "Prisma",
+        "PostgresSQL",
+        "Headless CMS",
+    ],
+    "Styling": [
+        "Tailwind CSS",
+        "Styled Components",
+        "SASS/SCSS",
+        "Bootstrap",
+    ],
+    "Design Tools": [
+        "Adobe Photoshop",
+        "Figma",
+    ],
+    "Animation": [
+        "GreenSock (GSAP)",
+        "Framer Motion",
+        "CSS Animations",
+    ],
+    "DevOps / Tools": [
+        "Git / Github",
+        "Jira",
+        "CI/CD",
+        "Webpack",
+    ]
+
+} as const;/* 
+    "Frontend":
     "HTML",
     "CSS",
     "JavaScript",
@@ -136,5 +185,5 @@ export const skillsData = [
     "Framer Motion",
     "Figma",
     "Adobe Photoshop",
-    "UI/UX",
-] as const;
+    "UI/UX", */
+
