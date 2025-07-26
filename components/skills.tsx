@@ -32,7 +32,7 @@ const Skills = () => {
       ref={ref}
       className='mb-28 max-w-[85rem] scroll-mt-28 text-center sm:mb-40'
     >
-      <SectionHeading>My Skills</SectionHeading>
+  
      
       <ul className='relative p-1 flex flex-wrap  rounded-lg bg-gradient-to-b from-emerald-900 via-emerald-900 to-zinc-950' >
         {Object.entries(skillsData).map(([category, skills], index) => (
