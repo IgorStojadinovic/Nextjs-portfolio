@@ -29,7 +29,7 @@ const Contact = () => {
       className='mb-20 sm:mb-28 w-[min(100%,38rem)]'
     >
       <SectionHeading>Contact me</SectionHeading>
-      <p className='text-gray-700 text-center -mt-5 dark:text-gray-50'>
+      <p className=' text-center -mt-5 text-gray-50'>
         {`I would love to hear about your project and how I could help.Please fill
         in the form,and I'll get back to you as soon as possible!`}
       </p>

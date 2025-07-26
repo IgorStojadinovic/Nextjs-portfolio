@@ -24,18 +24,17 @@ export default function RootLayout({
   return (
     <html lang='en' className='!scroll-smooth'>
       <body
-        className={`${inter.className} bg-gray-50 text-gray-950 pt-28 sm:pt-36 overflow-x-hidden relative dark:bg-zinc-950 dark:text-gray-50 dark:text-opacity-90`}
+        className={`${inter.className} pt-28 sm:pt-36 overflow-x-hidden relative bg-zinc-950 text-gray-50 text-opacity-90`}
       >
-        <div className='bg-[#d4d8ff] absolute top-[-6rem] -z-10 right-[11rem] hidden sm:block sm:h-[32rem] sm:w-[68.75rem] rounded-full blur-[10rem]  dark:bg-transparent'></div>
-        <div className='bg-[rgb(216,255,219)] absolute  -z-10  h-1/2 w-1/2 sm:block sm:h-[32rem] sm:w-[68.75rem]  rounded-full blur-[10rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-transparent'></div>
-
+        <div className=' absolute top-[-6rem] -z-10 right-[11rem] hidden sm:block sm:h-[32rem] sm:w-[68.75rem] rounded-full blur-[10rem]  bg-transparent'></div>
+        <div className=' absolute  -z-10  h-1/2 w-1/2 sm:block sm:h-[32rem] sm:w-[68.75rem]  rounded-full blur-[10rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] bg-transparent'></div>
         <ActiveSectionContextProvider>
-          <ThemeContextProvider>
+   
             <Header />
             {children}
             <Toaster position='top-right' />
             <Footer />
-          </ThemeContextProvider>
+      
         </ActiveSectionContextProvider>
       </body>
     </html>
