@@ -133,7 +133,7 @@ export const skillsData = {
     "State Managment & Tools": [
         "Redux",
         "Zustand",
-        "React Query",
+        "TanStack Query",
         "Context API",
     ],
     "CMS & Backend": [
