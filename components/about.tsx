@@ -5,10 +5,11 @@ import { motion } from 'framer-motion'
 import { useSectionInView } from '@/lib/hooks'
 
 const About = () => {
-    const { ref } = useSectionInView('About')
+  /*   const { ref } = useSectionInView('About') */
 
     return (
-        <motion.section
+        <></>
+       /*  <motion.section
             ref={ref}
             className='mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28'
             initial={{ opacity: 0, y: 100 }}
@@ -35,7 +36,7 @@ const About = () => {
                 <span className='font-medium text-emerald-500'> React or JavaScript developer</span>
             </p>
 
-           {/*  <p>
+            <p>
                 <span className='italic'>{`When I'm not coding`}</span>, I enjoy
                 working out, watching movies, reading, and listening to Huberman
                 Lab. I also enjoy <span className='font-medium'>art</span>.{' '}
@@ -48,10 +49,10 @@ const About = () => {
                     Watts Atiler
                 </a>{' '}
                 for several years now.
-            </p> */}
+            </p>
 
             
-        </motion.section>
+        </motion.section> */
     )
 }
 
