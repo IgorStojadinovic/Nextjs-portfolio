@@ -130,7 +130,7 @@ export const skillsData = {
         "React",
         "Next.js",
     ],
-    "State Managment & Tools": [
+    "State Managment": [
         "Redux",
         "Zustand",
         "TanStack Query",
@@ -140,6 +140,7 @@ export const skillsData = {
         "Node.js",
         "Express",
         "REST APIs",
+        "GraphQL",
         "Prisma",
         "PostgresSQL",
         "Headless CMS",
