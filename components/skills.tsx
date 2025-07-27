@@ -37,7 +37,10 @@ const Skills = () => {
       <ul className='relative p-1 flex flex-wrap  rounded-lg bg-gradient-to-b from-emerald-900 via-emerald-900 to-zinc-950' >
         {Object.entries(skillsData).map(([category, skills], index) => (
           <li
-            className=' bg-zinc-950 min-w-[20rem] px-5 flex-1 text-white border border-black/[0.1] flex flex-col  items-center gap-2 py-4 '
+            className={`bg-zinc-950 min-w-[20rem] px-5 flex-1 text-white  flex flex-col  items-center gap-2 py-4 
+              ${index === 0 ? 'rounded-tl-md' : ''} 
+              ${index === 3 ? 'rounded-tr-md' : ''}
+              `}  
             key={index}
           >
            <div className='flex flex-col items-center gap-2 w-full'> 
