@@ -42,7 +42,7 @@ export const experiencesData = [
         title: "Freelance React/JavaScript Developer",
         location: "",
         description:
-            "Since leaving C9 Group, I have been working as a JavaScript freelance developer and I am open to full-time opportunities.",
+            "Since leaving C9 Group, I have been working as a JavaScript/Frontend Developer and I am open to full-time opportunities.",
         icon: React.createElement(FaReact),
         date: "Present",
     },
@@ -50,7 +50,7 @@ export const experiencesData = [
         title: "Software Developer - C9 Group",
         location: "Novi Sad",
         description:
-            "After a brief internship, I joined the C9 Group/WowYowAI team as a full-stack software developer. My tech stack included React, Bootstrap, Redux, MySQL, and AWS.",
+            "After a brief internship, I joined the C9 Group/WowYowAI team as a full-stack software developer. My tech stack included React, Bootstrap, Redux, Node.js, Express, MySQL, and AWS.",
         icon: React.createElement(CgWorkAlt),
         date: "2023",
     },
@@ -144,6 +144,7 @@ export const skillsData = {
         "Prisma",
         "PostgresSQL",
         "Headless CMS",
+        "Wordpress",
     ],
     "Styling": [
         "Tailwind CSS",
